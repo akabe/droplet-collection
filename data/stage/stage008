@@ -1,0 +1,63 @@
+## Droplet Collection 用ステージ設定ファイル
+
+# フィールドの設定
+[Field]
+Image=../image/background.png
+X=10
+Y=10
+# フィールドの有効範囲の幅
+Width=430
+# フィールドの有効範囲の高さ
+Height=470
+
+# ラケットの設定
+[Racket]
+Image=../image/racket.png
+Y=520
+XMin=10
+XMax=440
+
+# ボールの設定
+[Ball]
+Image=../image/ball.png
+Speed=8
+Weight=500
+
+# 各種オブジェクトの設定
+[Droplet1]
+Class=Droplet
+ID=0
+X=60
+Y=150
+Radius=40
+Restitution=0.5
+BgColor=#CD853F66
+LineColor=#8B451366
+EffectColor=#800000cc
+
+[Droplet2]
+Class=Droplet
+ID=0
+X=360
+Y=150
+Radius=40
+Restitution=0.5
+BgColor=#CD853F66
+LineColor=#8B451366
+EffectColor=#800000cc
+
+[Flicker1]
+Class=Flicker
+X=200
+Y=150
+Radius=25
+Image=../image/naruto-50.png
+Speed=8
+
+[Flicker2]
+Class=Flicker
+X=200
+Y=310
+Radius=15
+Image=../image/naruto-30.png
+Speed=8
